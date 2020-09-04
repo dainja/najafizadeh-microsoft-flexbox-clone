@@ -1,0 +1,518 @@
+/*
+  ========================================
+  Top header
+  ========================================
+*/
+
+.main-container{
+    max-width: calc(1600px + 10%);
+    margin: 0 auto;
+    padding: 0 5% 0 5%;
+}
+
+.main-header{
+    width: 100%;
+    height: 100%;
+}
+
+.header-container{
+    height: 54px;
+    font-size: 13px;
+    display: flex;
+    white-space: nowrap;
+}
+
+
+
+
+
+/*
+  ========================================
+  Logo and top navigation
+  ========================================
+*/
+
+.logo{
+    width: 137px;
+    height: 100%;
+    margin: 1px 0 0 0;
+    padding: 16px 6px 16px 10px;
+}
+
+.logo img{
+    margin-top: -3px;
+    width: 108px;
+}
+
+.nav-menu-left{
+    width: 1020px;
+}
+
+.nav-menu,
+.nav-menu-right{
+    display: flex;
+    list-style-type: none;
+}
+
+.nav-menu-items,
+.nav-menu-right-items{
+    padding: 16px 9px 10px 10px;
+    margin: 1px 4px 0 4px;
+    border: 1px solid #ffffff;
+    display: flex;
+}
+
+.nav-menu-right-items i{
+    margin-top: auto;
+    padding: 0 8.4px;
+    font-size: 1rem;
+}
+
+
+
+
+
+
+/*
+  ========================================
+  Showcase
+  ========================================
+*/
+
+.showcase-container{
+    position: relative;
+}
+
+.showcase-container img{
+    width: 100%;
+}
+
+.showcase-content{
+    position: absolute;
+    top: 42%;
+    right: 6%;
+    max-width: 520px;
+}
+
+.showcase-heading{
+    font-size: 34px;
+    font-weight: 600;
+    letter-spacing: -0.3px;
+    line-height: 40px;
+    margin-top: -40px;
+}
+
+.showcase-text{
+    font-size: 15px;
+    line-height: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.btn button{
+    display: inline-block;
+    border: none;
+    padding: .7rem 2rem;
+    background: var(--primary-color);
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.btn i{
+    display: inline;
+    padding-left: 10px;
+}
+
+
+
+
+
+
+
+
+/*
+  ========================================
+  Main products
+  ========================================
+*/
+
+
+.main-products{
+    width: 100%;
+    height: 100%;
+}
+
+.products-container{
+    height: 130px;
+    margin: 48px 0 0 0;
+}
+
+.product-items{
+    list-style-type: none;
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    padding: 12px 0;
+}
+
+.product-items li{
+    text-align: center;
+    width: 120px;
+    margin: 0 35px;    
+}
+
+
+
+
+
+
+
+
+/*
+  ========================================
+  Main cards section
+  ========================================
+*/
+
+
+.main-cards-section{
+    margin-top: 30px;
+}
+
+.cards-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.box{
+    flex-basis: 24%;
+}
+
+.box-img{
+    margin-bottom: 30px;
+}
+
+.box-img img{
+    width: 100%;
+}
+
+.card-heading{
+    font-size: 20px;
+    font-weight: 600;
+    padding-bottom: 5px;
+}
+
+.card-text{
+    padding: 5px 30px 8px 0;
+}
+
+.card-link{
+    text-decoration: none;
+    color: #186bca;
+    font-weight: 500;
+    display: block;
+    padding: 5px 0 10px 0;
+}
+
+.card-link:hover{
+    text-decoration: underline;
+    color: #186bca;
+}
+
+
+
+
+
+
+
+
+
+/*
+  ========================================
+  Xbox showcase
+  ========================================
+*/
+
+
+.xbox-showcase{
+    margin-top: 60px;
+    position: relative;
+}
+
+.xbox-showcase img{
+    width: 100%;
+}
+
+.xbox-text{
+    position: absolute;
+    top: 45%;
+    max-width: 520px;
+    margin-left: 6%;
+}
+
+.xbox-heading{
+    font-size: 34px;
+    font-weight: 600;
+    letter-spacing: -0.3px;
+    line-height: 40px;
+    margin-top: -40px;
+}
+
+.xbox-text-desc{
+    font-size: 15px;
+    line-height: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+/*
+  ========================================
+  At work header
+  ========================================
+*/
+
+.at-work{
+    padding-top: 48px;
+}
+
+.at-work-heading{
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 600;
+}
+
+
+
+
+
+
+
+
+
+/*
+  ========================================
+  Sub cards section
+  ========================================
+*/
+
+.sub-cards-section{
+    margin-top: 30px;
+}
+
+.sub-cards-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.sub-box{
+    flex-basis: 24%;
+}
+
+.sub-box-img{
+    margin-bottom: 30px;
+}
+
+.sub-box-img img{
+    width: 100%;
+}
+
+.sub-card-heading{
+    font-size: 20px;
+    font-weight: 600;
+    padding-bottom: 5px;
+}
+
+.sub-card-text{
+    padding: 5px 30px 8px 0;
+}
+
+.sub-card-link{
+    text-decoration: none;
+    color: #186bca;
+    font-weight: 500;
+    display: block;
+    padding: 5px 0 10px 0;
+}
+
+.sub-card-link:hover{
+    text-decoration: underline;
+    color: #186bca;
+}
+
+
+
+
+
+
+/*
+  ========================================
+  Social media section
+  ========================================
+*/
+
+.social-pad{
+    padding-top: 76px;
+}
+
+.social-menu-container{
+    display: flex;
+}
+
+.follow{
+    align-self: center;
+    padding-right: 12px;
+    margin-bottom: 4px;
+}
+
+.social-menu{
+    list-style-type: none;
+    display: flex;  
+    flex-basis: 225px; 
+    justify-content: space-between;
+}
+
+.social-menu img{
+    width: 32px;
+    height: 32px;
+    border: 2px solid #ffffff;
+}
+
+
+
+
+
+
+
+/*
+  ========================================
+  Footer
+  ========================================
+*/
+
+footer{
+    background: #f2f2f2;
+}
+
+.main-footer-container{
+    margin-top: 40px;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+/*
+  ========================================
+  Footer navigation
+  ========================================
+*/
+
+.nav-group{
+    vertical-align: text-top;
+    width: 16%;
+    display: inline-block;
+}
+
+.nav-heading{
+    color: #616161;
+    padding: 36px 0 4px 0;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.nav-ul{
+    font-size: 11px;
+    line-height: 16px;
+    margin-top: 0;
+    padding-left: 0;
+    list-style-type: none;
+    padding-right: 0;
+    margin: 8px 0;
+}
+
+.nav-ul li{
+    padding: 8px 0;
+}
+
+.nav-ul li a{
+    color: #616161;
+}
+
+
+
+
+
+
+
+
+
+
+/*
+  ========================================
+  Bottom footer section
+  ========================================
+*/
+
+.bottom-footer{
+    background: #f2f2f2;
+}
+
+.bottom-footer-container{
+    padding: 30px 5% 16px;
+    margin: 0 auto;
+    height: 26px;
+}
+
+.bottom-text{
+    font-size: 11px;
+    line-height: 16px;
+    display: inline-block;
+    padding-right: 24px;
+    color: #616161;
+}
+
+.language-select{
+    float: left;
+    height: 24px;
+}
+
+.language-select a i{
+    color: #616161;
+    font-size: 20px;
+    line-height: 24px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.language-select a p{
+    font-size: 12px;
+    line-height: 24px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.bottom-info{
+    list-style-type: none;
+    float: right;
+}
+
+.bottom-info li{
+    display: inline-block;
+}
